@@ -1,0 +1,104 @@
+# project info
+site_name: NDX 产品调研文档
+site_description: 统一存放了 NDX 团队的调研文档
+site_author: ndx.daocloud.io
+repo_url: https://gitlab.daocloud.cn/ndx/product/product-research-document
+repo_name: Product Research
+edit_uri: ./edit/master/docs
+
+theme:
+  name: material
+  logo: images/icon.png
+  favicon: images/icon.png
+  language: zh
+
+  icon:
+    repo: fontawesome/brands/git
+
+  palette:
+    scheme: indigo
+
+  font:
+    text: Roboto
+
+  features:
+    - navigation.indexes
+    # - navigation.tabs.sticky
+    - toc.follow
+
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.annotate
+
+    - header.autohide
+
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: 中文
+      link: /zh/
+      lang: zh
+
+  generator: true
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/squidfunk/mkdocs-material
+      name: NDX on GitLab
+
+plugins:
+  - mermaid2
+  - search
+  - tags
+  - git-revision-date
+
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+  - javascripts/shortcuts.js
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+      title: On this page
+      toc_depth: 3
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.caret
+  - def_list
+  - pymdownx.mark
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.highlight:
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - 首页: index.md
