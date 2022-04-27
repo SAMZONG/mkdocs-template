@@ -52,10 +52,10 @@ theme:
 extra:
   alternate:
     - name: English
-      link: /en/
+      link: en/
       lang: en
     - name: 中文
-      link: /zh/
+      link: zh/
       lang: zh
   
   generator: true
