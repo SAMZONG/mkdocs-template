@@ -2,6 +2,7 @@
 site_name: NDX 产品调研文档
 site_description: 统一存放了 NDX 团队的调研文档
 site_author: ndx.daocloud.io
+site_url: http://localhost:8000
 repo_url: https://gitlab.daocloud.cn/ndx/product/product-research-document
 repo_name: Product Research
 edit_uri: ./edit/master/docs
@@ -77,6 +78,8 @@ plugins:
   - search
   - tags
   - git-revision-date
+  - rss
+
 
 extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js
