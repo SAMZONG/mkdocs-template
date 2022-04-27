@@ -9,7 +9,7 @@ stages:
 image: python:3.8-buster
 
 before_script:
-  - pip install -r requirements.txt
+  - pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 test:
   stage: test
