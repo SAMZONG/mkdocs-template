@@ -1,3 +1,7 @@
+defaults:
+  tags:
+    - k8s
+
 stages:
   - test
   - deploy
