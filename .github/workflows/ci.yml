@@ -27,14 +27,14 @@ jobs:
           python-version: 3.x
 
       # Runs a single command using the runners shell
-      - run: pip install mkdocs \
-          mkdocs-material \
-          mkdocs-rss-plugin \
-          mkdocs-mermaid2-plugin \
-          mkdocs-redirects \
-          mkdocs-minify-plugin \
-          mkdocs-macros-plugin \
-          mkdocs-git-revision-date-plugin \
-          mkdocs-git-revision-date-localized-plugin
+      - run: pip install mkdocs-material
+      - run: pip install mkdocs-git-revision-date-plugin
+      - run: pip install mkdocs-mermaid2-plugin
+      
+      # add plugin
+      - run: pip install mkdocs-rss-plugin
+      - run: pip install mkdocs-minify-plugin
+      - run: pip install mkdocs-macros-plugin
+      - run: pip install mkdocs-git-revision-date-localized-plugin
 
       - run: mkdocs gh-deploy --force
