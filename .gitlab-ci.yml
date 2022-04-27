@@ -1,9 +1,6 @@
 default:
   tags:
     - k8s
-    - docker
-    - gitlab-org
-    - gitlab-org-docker
 
 stages:
   - test
