@@ -27,7 +27,8 @@ jobs:
           python-version: 3.x
 
       # Runs a single command using the runners shell
-      - run: pip install mkdocs-material \
+      - run: pip install mkdocs \
+          mkdocs-material \
           mkdocs-rss-plugin \
           mkdocs-mermaid2-plugin \
           mkdocs-redirects \
