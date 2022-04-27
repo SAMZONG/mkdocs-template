@@ -1,4 +1,5 @@
 ---
+title: Index Of en
 tags:
   - HTML5
   - JavaScript
@@ -6,8 +7,7 @@ tags:
   - Other
 ---
 
-## Homepage
+# Homepage
 
-### Language
 
 请选择你想要使用的语言

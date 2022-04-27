@@ -10,21 +10,37 @@ theme:
   name: material
   logo: images/icon.png
   favicon: images/icon.png
-  language: zh
-
   icon:
     repo: fontawesome/brands/git
-
+  font: false
+  sticky_navigation: false
+  include_homepage_in_sidebar: true
+  prev_next_buttons_location: both
+  language: zh
+  
   palette:
-    scheme: indigo
-
-  font:
-    text: Roboto
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
 
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.instant
+    - navigation.tracking
     - navigation.indexes
-    # - navigation.tabs.sticky
     - toc.follow
+    - tabs: true
 
     - search.suggest
     - search.highlight
@@ -41,8 +57,15 @@ extra:
     - name: 中文
       link: /zh/
       lang: zh
-
+  
   generator: true
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
 
   social:
     - icon: fontawesome/brands/github
@@ -76,7 +99,7 @@ markdown_extensions:
   - toc:
       permalink: true
       title: On this page
-      toc_depth: 3
+      toc_depth: 4
   - tables
   - pymdownx.arithmatex:
       generic: true
@@ -101,4 +124,8 @@ markdown_extensions:
       alternate_style: true
 
 nav:
-  - 首页: index.md
+  - Homepage: index.md
+  - Research:
+    - zh/index.md
+    - DCE 4: zh/Research/dce-4-0-8.md
+    - DaoCloud: zh/Research/DaoCloud-install.md

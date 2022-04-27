@@ -8,6 +8,20 @@ title: Getting started
 
 Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 
+## Video
+
+<figure class="mdx-video" markdown>
+  <div class="mdx-video__inner">
+    <iframe src="https://streamable.com/e/yslhdu" allowfullscreen></iframe>
+  </div>
+  <figcaption markdown>
+
+This documentation is built with Insiders
+[squidfunk.github.io/mkdocs-material][Material for MkDocs]
+
+  </figcaption>
+</figure>
+
 ## Inner Table
 
 === "C"

@@ -1,12 +1,6 @@
----
-hide:
-  - navigation
-  - toc
----
-
 
 ## Homepage
 
-### Language
+### Topic
 
-please choice you love language
+English version not ready
