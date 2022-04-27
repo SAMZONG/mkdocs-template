@@ -8,27 +8,27 @@ title: Tags
 
 ## <span class="tag">CSS</span>
 
-  * [index](zh/index.md)
+  * [Index Of en](zh/index.md)
 
  
 
 
 ## <span class="tag">HTML5</span>
 
-  * [index](zh/index.md)
+  * [Index Of en](zh/index.md)
 
  
 
 
 ## <span class="tag">JavaScript</span>
 
-  * [index](zh/index.md)
+  * [Index Of en](zh/index.md)
 
  
 
 
 ## <span class="tag">Other</span>
 
-  * [index](zh/index.md)
+  * [Index Of en](zh/index.md)
 
  
