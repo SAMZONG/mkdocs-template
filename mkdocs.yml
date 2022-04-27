@@ -76,7 +76,8 @@ extra:
 plugins:
   - mermaid2
   - search
-  - tags
+  - tags:
+        tags_file: tags.md
   - git-revision-date
   - rss
 

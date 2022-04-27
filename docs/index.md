@@ -1,5 +1,8 @@
 ---
 title: Getting started
+tags:
+  - Mkdocs
+  - Markdown
 ---
 
 # Markdown 样式指南
