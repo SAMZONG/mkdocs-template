@@ -1,6 +1,6 @@
 # Summary
 
-* [NDX 产品团队](README.md)
+* [NDX 产品团队](read_ndx.md)
 
 # 大纲目录
 

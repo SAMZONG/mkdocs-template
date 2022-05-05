@@ -4,7 +4,7 @@ site_description: 统一存放了 NDX 团队的调研文档
 site_author: ndx.daocloud.io
 site_url: http://localhost:8000
 repo_url: https://gitlab.daocloud.cn/ndx/product/product-research-document
-repo_name: Product Research
+repo_name: Product Docs
 edit_uri: ./edit/master/docs
 
 theme:
@@ -51,14 +51,6 @@ theme:
     - header.autohide
 
 extra:
-  alternate:
-    - name: English
-      link: en/
-      lang: en
-    - name: 中文
-      link: zh/
-      lang: zh
-  
   generator: true
   consent:
     title: Cookie consent
@@ -83,11 +75,8 @@ plugins:
 
 
 extra_javascript:
-  - https://unpkg.com/mermaid/dist/mermaid.min.js
-  - javascripts/shortcuts.js
+  - https://cdn.jsdelivr.net/gh/mermaid-js/mermaid@develop/dist/mermaid.min.js
 
-extra_css:
-  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
