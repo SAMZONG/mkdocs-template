@@ -68,7 +68,8 @@ extra:
 plugins:
   - awesome-pages
   - mermaid2
-  - search
+  - search:
+       separator: '[\\s\\u200b\\-]'
 #  - tags:
 #      tags_file: scaffolds/tags.md
   - git-revision-date
