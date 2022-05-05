@@ -6,4 +6,4 @@ NDX 产品团队始终致力于打造世界级产品，在保证 DCE、DSM、DMP
 
 下图为 2022 年 Q2 产品团队的架构设计。
 
-![NDX 产品架构](/images/product.png)
+![NDX 产品架构](images/product.png)
