@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "c4d3f6dac29b3d71",
+    "type": "split",
+    "children": [
+      {
+        "id": "84ba8db13e811816",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "新增的文件.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c7fafa53677d4200",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c0ec707417db221",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f111e7915bb0f78",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4c583a180d5c8cfc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b00473904880ddcc",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "985a1d3b938200d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "b774a18ccac77c3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9dbb72fecf02031d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "新增的文件.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8ccae3504ddb4cca",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "新增的文件.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a84e51ff1e39902b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ab8507d8dff3b8ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "新增的文件.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "84ba8db13e811816",
+  "lastOpenFiles": [
+    "新增的文件.md",
+    "index.md",
+    "zh/index.md",
+    "zh/Research/DaoCloud-install.md",
+    "2022-05-03.md",
+    "202205030546.md",
+    "zh/Research/dce-4-0-8.md",
+    "images/icon.png",
+    "en/index.md",
+    "tags.md"
+  ]
+}

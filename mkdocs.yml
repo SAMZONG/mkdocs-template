@@ -126,10 +126,3 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
-
-nav:
-  - Homepage: index.md
-  - Research:
-    - zh/index.md
-    - DCE 4: zh/Research/dce-4-0-8.md
-    - DaoCloud: zh/Research/DaoCloud-install.md
