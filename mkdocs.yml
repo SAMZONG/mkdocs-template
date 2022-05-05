@@ -1,5 +1,5 @@
 # project info
-site_name: NDX 产品调研文档
+site_name: NDX 产品文档站
 site_description: 统一存放了 NDX 团队的调研文档
 site_author: ndx.daocloud.io
 site_url: http://localhost:8000
@@ -34,8 +34,8 @@ theme:
         name: Switch to light mode
 
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
+#    - navigation.tabs
+#    - navigation.tabs.sticky
     - navigation.sections
     - navigation.instant
     - navigation.tracking
