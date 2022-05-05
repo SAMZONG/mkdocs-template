@@ -34,7 +34,7 @@ theme:
         name: Switch to light mode
 
   features:
-#    - navigation.tabs
+    - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.instant
@@ -66,10 +66,11 @@ extra:
       name: NDX on GitLab
 
 plugins:
+  - awesome-pages
   - mermaid2
   - search
 #  - tags:
-#        tags_file: tags.md
+#      tags_file: scaffolds/tags.md
   - git-revision-date
   - rss
 
@@ -117,3 +118,4 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+

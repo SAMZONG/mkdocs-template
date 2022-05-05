@@ -1,8 +1,8 @@
 # Summary
 
-* [NDX 产品团队](read_ndx.md)
+* [NDX 产品团队](README.md)
 
-# 大纲目录
+## 大纲目录
 
 * [DCE 5.0](dce5.0/README.md)
   * [容器管理](dce5.0/01kpanda.md)
