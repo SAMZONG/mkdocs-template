@@ -39,7 +39,7 @@ theme:
     - navigation.sections
     - navigation.instant
     - navigation.tracking
-    - navigation.indexes
+   # - navigation.indexes
     - toc.follow
     - tabs: true
 
@@ -66,7 +66,12 @@ extra:
       name: NDX on GitLab
 
 plugins:
-  - awesome-pages
+  - awesome-pages:
+       collapse_single_pages: true
+       strict: false
+  - section-index
+#  - literate-nav:
+#      nav_file: SUMMARY.md
   - mermaid2
   - search:
        separator: '[\\s\\u200b\\-]'
@@ -120,3 +125,53 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
+nav:
+  - Home:
+    - SUMMARY.md
+    - README.md
+  - DCE 5.0:
+    - dce5.0/README.md
+    - dce5.0/01kpanda.md
+    - dce5.0/02ghippo.md
+    - dce5.0/03clusterpedia.md
+    - dce5.0/04insight.md
+    - dce5.0/05hwameistor.md
+    - dce5.0/06frontend-ux.md
+    - dce5.0/07spiderpool.md
+    - dce5.0/08spiderflat.md
+    - dce5.0/09mspider.md
+    - dce5.0/10merbridge.md
+    - dce5.0/11midware.md
+    - dce5.0/12skoala.md
+    - dce5.0/13appws.md
+    - dce5.0/14kubegrid.md
+  - Design:
+    - design/README.md
+    - design/interactive.md
+    - design/protype.md
+    - design/sample.md
+    - design/visible.md
+  - Products:
+    - products/README.md
+    - products/dce4.0.md
+    - products/dcex.md
+    - products/delivery.md
+    - products/insight.md
+    - products/pre-sales.md
+  - Support:
+    - support/README.md
+    - support/docs.md
+    - support/flow-tools.md
+    - support/patent.md
+    - support/teambuilding.md
+    - support/training.md
+  - Survey:
+    - survey/README.md
+    - survey/cce.md
+    - survey/cilium.md
+    - survey/harbor.md
+    - survey/karmada.md
+    - survey/kubesphere.md
+    - survey/rancher.md
+    - survey/storage.md
+    - survey/tanzu.md
