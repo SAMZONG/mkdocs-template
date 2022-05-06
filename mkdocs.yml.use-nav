@@ -1,23 +1,23 @@
 # project info
 site_name: NDX 产品文档站
-site_description: 统一存放了 NDX 团队的产品文档
-site_author: Ting Ye
-site_url: https://ndx.gitpages.daocloud.io/product/product-research-document/
+site_description: 统一存放了 NDX 团队的调研文档
+site_author: ndx.daocloud.io
+site_url: http://localhost:8000
 repo_url: https://gitlab.daocloud.cn/ndx/product/product-research-document
 repo_name: Product Docs
 edit_uri: ./edit/master/docs
 
 theme:
   name: material
-  font: false
-  language: zh
   logo: images/icon.png
   favicon: images/icon.png
   icon:
     repo: fontawesome/brands/git
-  sticky_navigation: true
+  font: false
+  sticky_navigation: false
   include_homepage_in_sidebar: true
   prev_next_buttons_location: both
+  language: zh
   
   palette:
     - media: "(prefers-color-scheme: light)" 
@@ -39,7 +39,7 @@ theme:
     - navigation.sections
     - navigation.instant
     - navigation.tracking
-    - navigation.indexes
+   # - navigation.indexes
     - toc.follow
     - tabs: true
 
@@ -48,7 +48,7 @@ theme:
     - search.share
     - content.code.annotate
 
-    # - header.autohide
+    - header.autohide
 
 extra:
   generator: true
@@ -63,18 +63,22 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/squidfunk/mkdocs-material
-      name: Mkdocs Material
+      name: NDX on GitLab
 
 plugins:
   - awesome-pages:
        filename: .pages.yaml
        collapse_single_pages: true
        strict: false
+  - pagenav-generator
+#  - section-index
+#  - literate-nav:
+#      nav_file: SUMMARY.md
   - mermaid2
   - search:
        separator: '[\\s\\u200b\\-]'
-  - tags:
-       tags_file: scaffolds/tags.md
+#  - tags:
+#      tags_file: scaffolds/tags.md
   - git-revision-date
   - rss
 
@@ -99,7 +103,7 @@ markdown_extensions:
   - toc:
       permalink: true
       title: On this page
-      toc_depth: 3
+      toc_depth: 4
   - tables
   - pymdownx.arithmatex:
       generic: true
@@ -122,3 +126,54 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+
+nav:
+  - Home:
+    - SUMMARY.md
+    - README.md
+  - DCE 5.0:
+    - dce5.0/README.md
+    - dce5.0/01kpanda.md
+    - dce5.0/02ghippo.md
+    - dce5.0/03clusterpedia.md
+    - dce5.0/04insight.md
+    - dce5.0/05hwameistor.md
+    - dce5.0/06frontend-ux.md
+    - dce5.0/07spiderpool.md
+    - dce5.0/08spiderflat.md
+    - dce5.0/09mspider.md
+    - dce5.0/10merbridge.md
+    - dce5.0/11midware.md
+    - dce5.0/12skoala.md
+    - dce5.0/13appws.md
+    - dce5.0/14kubegrid.md
+  - Design:
+    - design/README.md
+    - design/interactive.md
+    - design/protype.md
+    - design/sample.md
+    - design/visible.md
+  - Products:
+    - products/README.md
+    - products/dce4.0.md
+    - products/dcex.md
+    - products/delivery.md
+    - products/insight.md
+    - products/pre-sales.md
+  - Support:
+    - support/README.md
+    - support/docs.md
+    - support/flow-tools.md
+    - support/patent.md
+    - support/teambuilding.md
+    - support/training.md
+  - Survey:
+    - survey/README.md
+    - survey/cce.md
+    - survey/cilium.md
+    - survey/harbor.md
+    - survey/karmada.md
+    - survey/kubesphere.md
+    - survey/rancher.md
+    - survey/storage.md
+    - survey/tanzu.md
