@@ -20,13 +20,12 @@ docs
 ├── README.md       # 默认情况下 目录下 README.md 作为 default 页面
 ├── SUMMARY.md
 ├── dce5.0          # 子文件夹，支持多级目录，自动检测配置
-│   ├── .pages.yaml
 │   ├── 01kpanda.md # 子文件自动检测，可以通过文件名前缀数字控制排序
 │   ├── 02ghippo.md
 │   ├── 03clusterpedia.md
 │   ├── ...
 ├── design
-│   ├── .pages.yaml # 每个目录下都有一个 `.pages.yaml` 用来进行目录的配置
+│   ├── .pages.yaml # 可以不创建 当需要对一个目录进行特殊配置时引入.pages.yaml
 │   ├── README.md
 │   ├── ...
 ├── images          # 图片文件夹，使用相对路径引入即可
@@ -34,21 +33,18 @@ docs
 │   ├── icon.png
 │   ├── ...
 ├── products
-│   ├── .pages.yaml
 │   ├── README.md
 │   ├── ...
 ├── scaffolds       # 这里存放模板文件，一般不需要修改
-│   ├── .pages.yaml
+│   ├── .pages.yaml	# 特殊处理，增加 hide:true 不展示在顶层 nav
 │   └── tags.md
 ├── stylesheets     # 基于主题的自定义样式，一般不需要修改
 │   └── extra.css
 ├── support
-│   ├── .pages.yaml
 │   ├── 01-mkdocs-material.md
 │   ├── README.md
 │   ├── ...
 └── survey
-    ├── .pages.yaml
     ├── README.md
     ├── ...
 ```
@@ -118,7 +114,7 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 
     ``` c
     #include <stdio.h>
-
+    
     int main(void) {
       printf("Hello world!\n");
       return 0;
@@ -129,7 +125,7 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 
     ``` c++
     #include <iostream>
-
+    
     int main(void) {
       std::cout << "Hello world!" << std::endl;
       return 0;
