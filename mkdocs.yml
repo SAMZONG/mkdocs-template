@@ -77,9 +77,9 @@ plugins:
        tags_file: scaffolds/tags.md
   - git-revision-date
   - rss
-  - with-pdf:
-      author: Ting Ye
-      copyright: DaoCloud
+#  - with-pdf:
+#      author: Ting Ye
+#      copyright: DaoCloud
 
 
 
