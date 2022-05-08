@@ -1,0 +1,23 @@
+h1 {
+  font-weight: bold;
+  line-height: 4rem;
+  margin: 0 0 1.75rem;
+  padding: 20px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 4rem;
+}
+
+h2 {
+  font-weight: bold;
+  line-height: 3rem;
+  margin: 0 0 1.9375rem;
+  padding: 0 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 3rem
+}
+
+.md-typeset h1 {
+  font-weight: bold;
+}
