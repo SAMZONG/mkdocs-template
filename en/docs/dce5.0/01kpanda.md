@@ -1,10 +1,10 @@
-# 云容器管理
+# Kubernetes Container Managent
 
-[容器管理 repo](https://gitlab.daocloud.cn/ndx/engineering/kpanda)
+[Container Repo](https://gitlab.daocloud.cn/ndx/engineering/kpanda)
 
-云容器管理 (KPanda）是基于 Kubernetes 开源技术构建的面向云原生应用的容器管理平台，基于原生多云架构，解耦底层基础设施平台，实现多云与多集群统一化管理，简化企业的应用上云流程，降低运维管理和人力成本。 便捷创建 Kubernetes 集群，帮助企业快速搭建企业级的容器云平台。云容器管理的主要功能如下：
+Cloud Container Management (KPanda) is a container management platform for cloud-native applications based on Kubernetes open source technology. Based on native multi-cloud architecture, it decouples the underlying infrastructure platform, realizes unified multi-cloud and multi-cluster management, simplifies the cloud application process of enterprises, and reduces operation. Maintenance management and labor costs. Easily create Kubernetes clusters to help enterprises quickly build enterprise-level container cloud platforms. The main functions of cloud container management are as follows：
 
-**集群管理**
+**Cluster management**
 
 - 集群的统一纳管，支持所有特定版本范围内的任意 Kubernetes 集群纳入云容器管理管理范围，实现云上云下多云&混合云容器云平台的统一管理。
 - 集群的快速部署，通过 Web 界面快速部署企业级的 Kubernetes 集群，快速搭建企业级容器云台，适配物理机和虚拟机底层环境。
